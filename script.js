@@ -43,7 +43,7 @@ function validateForm() {
       alert("Empty feild must be filled out");
      
     }
-  }
+}
 
 validateForm()
 
@@ -56,28 +56,54 @@ function changeBodyBgColor() {
  
 
 function validatescore() {
-    var pushup = document.getElementById('pushup').value
-    var situp = document.getElementById('situp').value
-    var situp = document.getElementById('run').value
+    var pushup = document.getElementById('inputpushup').value
+    var situp = document.getElementById('inputsitup').value
+    var run = document.getElementById('inputrun').value
     var red =document.getElementById('red')
     var yellow =document.getElementById('yellow')
     var green =document.getElementById('green')
-    
+   
     if (parseInt(pushup)  >60 && parseInt(situp)>60 && parseInt(pushup) && parseInt(run)<16){
-        green.setAttribute("style", "background-color: green;")
-    }
-    //green.setAttribute('checked', '')}
+       green.setAttribute("style", "background-color: green;")
+        //green.style.backgroundColor = "blue"
+    
+    //green.radio.setAttribute('checked', '')}
 
-    else if (parseInt(pushup)  >60 && parseInt(situp)<60 && parseInt(pushup) && parseInt(run)<16) {
+    }else if (parseInt(pushup)  >60 && parseInt(situp)<60 && parseInt(pushup) && parseInt(run)<16) {
          yellow.setAttribute("style", "background-color: yellow;")
     }
        
     else if (parseInt(pushup)  <60 && parseInt(situp)<60 && parseInt(pushup) && parseInt(run)>16){
         red.setAttribute("style", "background-color: red;")
-    };
-};
+    }
+}
 
-//validatescore();
+validatescore();
 
-});
+
+/*
+    
+    if ((inputname =! '')){
+    if (parseInt(pushup)  >60 && parseInt(situp)>60 && parseInt(pushup) && parseInt(run)<16)
+       green.style.setAttribute("backgroundColor", "green");
+        //green.style.backgroundColor = "blue";
+    
+    //green.setAttribute('checked', '')}
+
+    if (parseInt(pushup)  >60 && parseInt(situp)<60 && parseInt(pushup) && parseInt(run)<16) 
+         yellow.setAttribute("style", "background-color: yellow;");
+    
+       
+     if (parseInt(pushup)  <60 && parseInt(situp)<60 && parseInt(pushup) && parseInt(run)>16)
+        red.setAttribute("style", "background-color: red;");
+    
+    }}
+
+//validatescore();*/
+
+})
+
+
+
+
 
