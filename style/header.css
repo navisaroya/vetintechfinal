@@ -1,0 +1,73 @@
+header{
+    border: solid;
+    background: gray;
+    text-align: center;
+}
+
+
+
+h4{
+    align-content: center;
+}
+
+
+#parent {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  position: relative;
+  
+ 
+  
+  }
+ 
+
+ 
+  .one{
+    display: flex;
+    justify-content: left;
+   
+   
+  }
+  .one{
+    position: relative;
+    width: 200px;
+}
+  .two{
+      display: flex;
+ 
+      
+  }
+
+  .two {
+    position: relative;
+    width: 200px;
+}
+  .three{
+    display: flex;
+   
+  }
+
+  .three {
+    position: relative;
+    width: 600px;}
+
+  .four{
+    display: flex;
+    justify-content: left;
+   
+  }
+  .four { 
+    position: relative;
+    width: 200px;}
+
+.five{
+    display: flex;
+    justify-content: left;
+   
+}
+.five{
+    position: relative;
+    width: 200Spx;}
+
