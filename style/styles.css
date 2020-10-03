@@ -1,3 +1,11 @@
+html { 
+    background: url(./jblm.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
 body
 {
    border: solid; 
@@ -5,6 +13,11 @@ body
  
   padding: 1rem;
   align-items: center;
+}
+
+iframe{
+   align-self: center;
+   
 }
 
 h1 {
@@ -24,6 +37,7 @@ form {
     padding: 1em;
     border: 1px solid #CCC;
     border-radius: 1em;
+    background-color: azure;
 }
 
 /*div+div {

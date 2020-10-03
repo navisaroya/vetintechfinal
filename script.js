@@ -67,7 +67,6 @@ document.addEventListener("submit", function (event) {
     if (
       parseInt(pushup) > 60 &&
       parseInt(situp) > 60 &&
-      parseInt(pushup) &&
       parseInt(run) < 16
     ) {
       green.setAttribute("style", "background-color: green;");
@@ -77,7 +76,6 @@ document.addEventListener("submit", function (event) {
     } else if (
       parseInt(pushup) > 60 &&
       parseInt(situp) < 60 &&
-      parseInt(pushup) &&
       parseInt(run) < 16
     ) {
       yellow.setAttribute("style", "background-color: yellow;");
